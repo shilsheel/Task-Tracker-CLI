@@ -1,53 +1,31 @@
-# Task-Tracker-CLI
-A simple command-line application for managing tasks efficiently.
+# Task Tracker Project
 
-Features
+This is a simple Task Tracker CLI application that allows users to manage tasks efficiently.
 
-✔ Add tasks with descriptions and statuses
+## Project URL
 
-✔ Update task descriptions and statuses
+You can view more about this project here: [Task Tracker on Roadmap.sh](https://roadmap.sh/projects/task-tracker)
 
-✔ Delete tasks
+## Repository
 
-✔ Mark tasks as In Progress or Done
+This repository contains the source code for the Task Tracker application. Make sure to check out the requirements and detailed explanations in the project URL.
 
-✔ List all tasks or filter by status
+## Features
 
-Usage:
+- Add, Update, and Delete tasks
+- Mark a task as in progress or done
+- List all tasks
+- List all tasks that are done
+- List all tasks that are not done
+- List all tasks that are in progress
 
-Add a new task
-task-cli add "Buy groceries" "Purchase milk, eggs, and bread" "todo"
+## Requirements
 
+- Command line interface (CLI)
+- Tasks are stored in a JSON file
 
-Update a task:
+## Installation
 
-task-cli update 1 "Buy groceries and cook dinner" "in-progress"
-
-Delete a task:
-
-task-cli delete 1
-
-Mark as In Progress / Done / Not Done:
-task-cli mark-in-progress 1
-task-cli mark-done 1
-task-cli mark-not-done 1
-
-List tasks:
-
-task-cli list        # Show all tasks
-task-cli list todo   # Show only pending tasks
-task-cli list done   # Show completed tasks
-
-Setup & Run:
-
-1.Clone the repository
-2..Navigate to the project folder
-3.Build and run the project
-
-dotnet build
-
-dotnet run -- add "Example Task" "Example Description" "todo"
-
-License
-
-This project is licensed under the MIT License.
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
